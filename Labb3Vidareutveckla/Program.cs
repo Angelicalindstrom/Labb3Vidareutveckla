@@ -59,7 +59,7 @@ namespace VarmDrinkStation
     {
         public IWarmDrink Prepare(int total)
         {
-            Console.WriteLine($"Pour {total} ml hot water in your cup"); // Utskrift av mängden vatten som hälls upp
+            Console.WriteLine($"Pour {total} cups hot water"); // Utskrift av mängden vatten som hälls upp
             return new Water(); // Returnerar en ny instans av Water
         }
     }
@@ -69,7 +69,7 @@ namespace VarmDrinkStation
     {
         public IWarmDrink Prepare(int total)
         {
-            Console.WriteLine($"Brew {total} ml coffee"); // Utskrift av mängden kaffe som bryggs
+            Console.WriteLine($"Brew {total} cups coffee"); // Utskrift av mängden kaffe som bryggs
             return new Coffee(); // Returnerar en ny instans av Coffee
         }
     }
@@ -79,7 +79,7 @@ namespace VarmDrinkStation
     {
         public IWarmDrink Prepare(int total)
         {
-            Console.WriteLine($"Brew {total} ml cappuccino"); // Utskrift av mängden cappuccino som bryggs
+            Console.WriteLine($"Brew {total} cups cappuccino"); // Utskrift av mängden cappuccino som bryggs
             return new Cappuccino(); // Returnerar en ny instans av Cappuccino
         }
     }
@@ -89,7 +89,7 @@ namespace VarmDrinkStation
     {
         public IWarmDrink Prepare(int total)
         {
-            Console.WriteLine($"Pour {total} ml hot chocolate"); // Utskrift av mängden choklad som hälls upp
+            Console.WriteLine($"Pour {total} cups of hot chocolate"); // Utskrift av mängden choklad som hälls upp
             return new Chocolate(); // Returnerar en ny instans av Chocolate
         }
     }
